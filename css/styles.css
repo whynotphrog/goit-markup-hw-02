@@ -3,30 +3,47 @@
 
 body { 
     font-family: 'Roboto',  sans-serif;
-    color: #434455 ;
     background-color: #ffffff;
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #2e2f42;
+         color: #434455;
 }
 
-h1 {
+.text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.title-header {
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
 }
 
-h2 {
+.advantages-header {
 font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
+}
+
+.section-header {
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform:capitalize;
     color: #2e2f42;
 }
 
@@ -48,6 +65,7 @@ a {
 
 .logo {
     font-family: 'Raleway', sans-serif;
+    font-weight:700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -99,17 +117,30 @@ a {
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: #4d5ae5;
         cursor:pointer;
 }
 
 .button:hover,
 .button:focus {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: #404bbf;
 }
 
+.list-header {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.list-item {
+    background-color:#ffffff;
+}
+
+.team {
+    background-color:#f4f4fd;
+}
 
 .page-footer {
     background-color:#2e2f42;
